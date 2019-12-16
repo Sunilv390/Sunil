@@ -1,22 +1,21 @@
 {
-  "name": "demo",
+  "name": "Downloads",
   "version": "1.0.0",
-  "description": "Node demo showing how to store data into a MOngoDB database",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "node",
-    "mongodb",
-    "mongoose",
-    "demo"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.8.1"
+    "helmet": "^3.21.2",
+    "mongodb": "^3.4.0",
+    "mongodb-memory-server": "^6.0.2",
+    "morgan": "^1.9.1"
   }
 }
